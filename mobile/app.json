@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Hub do Conhecimento",
+    "slug": "hub-do-conhecimento",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a"
+    },
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.hubconhecimento.app" },
+    "android": { "package": "com.hubconhecimento.app" },
+    "extra": {
+      "apiUrl": "https://SEU-DOMINIO.com"
+    }
+  }
+}
