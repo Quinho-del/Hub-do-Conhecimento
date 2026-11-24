@@ -53,7 +53,7 @@ function Home() {
         <div className="contatos-info">
           <div className="contatos-topicos">
             <span>E-mail</span>
-            <p>suricateam@matematicavestibular.com</p>
+            <p>the.definers@matematicavestibular.com</p>
           </div>
           <div className="contatos-topicos">
             <span>Telefone</span>

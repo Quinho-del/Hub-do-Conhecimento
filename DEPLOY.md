@@ -60,3 +60,23 @@ npm run dev
 ```
 
 Nunca publique `back/.env` nem coloque `DATABASE_URL`, `JWT_SECRET` ou `AUTH_PASSWORD` no frontend.
+
+## Render (API)
+
+Se a API for hospedada no Render, crie um **Web Service** apontando para este repositório e use:
+
+- **Root Directory:** `back`
+- **Build Command:** `npm install`
+- **Start Command:** `npm start`
+- **Health Check Path:** `/health/db`
+
+Em **Environment**, adicione `DATABASE_URL`, `DB_SSL=true`, `JWT_SECRET`, `AUTH_USER`, `AUTH_PASSWORD` e `NODE_ENV=production`. Para o Render, use a URI do Supabase em **Connect > Session pooler**, normalmente com a porta `5432`. Não use a URI de exemplo sem substituir a senha real.
+
+Depois do deploy, teste:
+
+```text
+https://sua-api.onrender.com/health
+https://sua-api.onrender.com/health/db
+```
+
+O segundo endpoint deve retornar `{"status":"ok","database":"connected"}`.

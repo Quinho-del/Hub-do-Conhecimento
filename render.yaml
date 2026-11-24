@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: hub-do-conhecimento-api
+    runtime: node
+    rootDir: back
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health/db
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: DB_SSL
+        value: "true"
+      - key: JWT_SECRET
+        sync: false
+      - key: AUTH_USER
+        sync: false
+      - key: AUTH_PASSWORD
+        sync: false
+      - key: NODE_ENV
+        value: production

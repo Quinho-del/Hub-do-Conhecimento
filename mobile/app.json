@@ -9,10 +9,18 @@
       "resizeMode": "contain",
       "backgroundColor": "#0f172a"
     },
-    "ios": { "supportsTablet": true, "bundleIdentifier": "com.hubconhecimento.app" },
-    "android": { "package": "com.hubconhecimento.app" },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hubconhecimento.app"
+    },
+    "android": {
+      "package": "com.hubconhecimento.app"
+    },
     "extra": {
-      "apiUrl": "https://SEU-DOMINIO.com"
+      "apiUrl": "https://SEU-DOMINIO.com",
+      "eas": {
+        "projectId": "c3861661-2c57-4525-96e0-d8e40ca84169"
+      }
     }
   }
 }
