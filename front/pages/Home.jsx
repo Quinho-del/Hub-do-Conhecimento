@@ -67,7 +67,7 @@ function Home() {
       </section>
 
       <footer>
-        <p>Copyright 2026 Suricateam | Vestibular+</p>
+        <p>Copyright 2026 The definers | Vestibular+</p>
       </footer>
     </>
   )

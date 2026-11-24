@@ -6,7 +6,7 @@ Avaliar usabilidade das interfaces **Web** e **Mobile** (login, listagem de ques
 
 ## 2. Metodologia
 
-- **Participantes:** 5 colegas do curso (16–22 anos).
+- **Participantes:** 5 colegas do curso 
 - **Plataformas:** Web (Chrome) e Mobile (Expo Go / Android).
 - **Tarefas:**
   1. Realizar login.
